@@ -1,92 +1,48 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Neontoaster Multimedia Dept.</title>
-    <style>
-        body {
-            font-family: 'Helvetica Neue', Arial, sans-serif;
-            background-color: #1a1a1a;
-            color: #ffffff;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-        }
-        header {
-            background-color: #2a2a2a;
-            padding: 40px 20px;
-            border-bottom: 4px solid #ED1C24;
-        }
-        .logo {
-            font-size: 2.5rem;
-            font-weight: bold;
-            color: #ED1C24;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            margin: 0;
-        }
-        .container {
-            max-width: 800px;
-            margin: 40px auto;
-            padding: 0 20px;
-        }
-        .bio-section {
-            background-color: #222;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
-            margin-bottom: 40px;
-        }
-        h2 {
-            color: #ED1C24;
-            font-size: 1.8rem;
-            border-bottom: 1px solid #333;
-            padding-bottom: 10px;
-        }
-        p {
-            font-size: 1.1rem;
-            line-height: 1.6;
-            color: #cccccc;
-        }
-        .lang-block {
-            margin-bottom: 30px;
-        }
-        .lang-block:last-child {
-            margin-bottom: 0;
-        }
-        footer {
-            margin-top: 60px;
-            padding: 20px;
-            font-size: 0.9rem;
-            color: #666;
-        }
-    </style>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>neontoaster multimedia dept.</title>
+<style>
+body{font-family:'Courier New',Courier,monospace;background-color:#cccccc;color:#000;margin:0;padding:0;line-height:1.6}
+.container{max-width:500px;margin:0 auto;padding:40px 20px;text-align:center}
+.logo-main,.band-logo{width:100%;max-width:250px;height:auto;margin-bottom:30px;display:block;margin-left:auto;margin-right:auto;mix-blend-mode:multiply;filter:saturate(2.4) contrast(1.3) brightness(1.2)}
+.band-logo{max-width:140px;margin-bottom:10px}
+.manifesto{text-align:justify;padding:10px 0;margin-bottom:40px;font-size:.95em}
+.manifesto b{color:#da171a}
+h2{font-size:1em;text-transform:uppercase;letter-spacing:2px;border-bottom:2px solid #da171a;display:inline-block;margin-bottom:25px;margin-top:40px}
+.band-section{margin-bottom:40px}
+.band-name{font-size:1.2em;font-weight:bold;display:block;margin-bottom:10px}
+.latest-release{margin:20px 0 40px 0}
+.cover-img{width:100%;max-width:300px;height:auto;border:1px solid #999;display:block;margin:0 auto}
+.btn{display:block;color:#fff;text-decoration:none;padding:15px;font-weight:700;text-transform:uppercase;letter-spacing:1px;margin:10px auto 20px;max-width:80%}
+.btn-red{background-color:#da171a}
+.btn-black{background-color:#000}
+.contact-section{text-align:left;margin-top:50px}
+.contact-header{font-size:.8em;letter-spacing:2px;text-transform:uppercase;border-bottom:2px solid #da171a;display:inline-block;margin-bottom:20px}
+.contact-link{display:block;color:#000;text-decoration:none;font-size:.9em;margin:12px 0;padding-bottom:5px;border-bottom:1px dotted #888}
+.contact-link b{color:#da171a;margin-right:10px;width:30px;display:inline-block}
+footer{margin-top:60px;font-size:.7em;color:#666;padding-bottom:40px}
+</style>
 </head>
 <body>
-
-    <header>
-        <div class="logo">💥 Neontoaster</div>
-        <p style="margin: 5px 0 0 0; color: #888; font-size: 1rem;">Multimedia Dept.</p>
-    </header>
-
-    <div class="container">
-        <div class="bio-section">
-            <div class="lang-block">
-                <h2>Chi Siamo</h2>
-                <p>Neontoaster Multimedia Dept. è un hub creativo dedicato alla fusione di suoni, immagini e strategie digitali. Trasformiamo idee grezze in esperienze multimediali croccanti e pronte al consumo.</p>
-            </div>
-            
-            <div class="lang-block">
-                <h2>About Us</h2>
-                <p>Neontoaster Multimedia Dept. is a creative hub dedicated to blending sound, visuals, and digital strategies. We turn raw ideas into crunchy, ready-to-consume multimedia experiences.</p>
-            </div>
-        </div>
-    </div>
-
-    <footer>
-        &copy; 2026 Neontoaster Multimedia Dept. All rights reserved.
-    </footer>
-
+<div class="container">
+<img src="logo.png" alt="neontoaster" class="logo-main">
+<div class="manifesto"><b>neontoaster multimedia dept.</b> is an idea, an urge.<br><br>The idea: a container of beautiful things that are difficult to collocate. Made by easily placeable people: musicians, writers, cartoonists, video makers.<br><br>The urge: to produce and distribute sounds, words, images, ideas that we love and that we want to be discovered by curious people, curious like us.</div>
+<h2>The Artists</h2>
+<div class="band-section"><img src="logo_fiesta.png" class="band-logo" alt="Fiesta Alba"><span class="band-name">Fiesta Alba</span><a href="https://fiestaalba.bandcamp.com" target="_blank" class="btn btn-red">View Artist</a></div>
+<div class="band-section"><img src="logo_wedding.png" class="band-logo" alt="Il Wedding Kollektiv"><span class="band-name">Il Wedding Kollektiv</span><a href="https://ilweddingkollektiv.bandcamp.com" target="_blank" class="btn btn-red">View Artist</a></div>
+<h2>Latest Release</h2>
+<div class="latest-release"><a href="https://fiestaalba.bandcamp.com/album/pyrotechnic-babel" target="_blank"><img src="cover_latest.png" class="cover-img" alt="Listen on Bandcamp"></a><p style="font-size:0.8em;color:#da171a;font-weight:bold;margin-top:10px">LISTEN ON BANDCAMP →</p></div>
+<a href="https://neontoastermultimediadept.bandcamp.com" target="_blank" class="btn btn-black">Full Department Catalog</a>
+<a href="https://soundcloud.com/neontoaster" target="_blank" class="btn btn-red">SoundCloud Archives</a>
+<div class="contact-section"><span class="contact-header">Connect</span>
+<div>
+<a href="https://t.me/neontoaster" target="_blank" class="contact-link"><b>TG</b> Telegram @neontoaster</a>
+<a href="mailto:neontoaster.multimedia.dept@gmail.com" class="contact-link"><b>EM</b> Email neontoaster.multimedia.dept@gmail.com</a>
+<a href="https://www.facebook.com/share/1CqJhzMsvd/" target="_blank" class="contact-link"><b>FB</b> Facebook /neontoaster</a>
+<a href="https://www.instagram.com/neontoaster.multimedia.dept?igsh=YzI5aHhtc3JhZ2J" target="_blank" class="contact-link"><b>IG</b> Instagram @neontoaster</a>
+</div></div>
+<footer>&copy; 2026 neontoaster multimedia dept.</footer>
+</div>
 </body>
 </html>
